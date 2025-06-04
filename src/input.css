@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+html, body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+    
+@layer base {
+    body {
+        @apply bg-gray-50;
+    }
+}
+
+
+@layer components {
+    .card {
+        @apply border-2 p-8 rounded-xl  shadow-pink-500;
+
+        @apply transition-all duration-300 ease-in-out cursor-pointer;
+
+        @apply hover:scale-105 hover:shadow-xl;
+
+        @apply active:scale-100 active:shadow-md;
+        
+    }
+}
+
+i,li {
+    color: white;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farah Hasna Pangesti - WebSite</title>
+    <link rel="stylesheet" href="dist/global.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body id="#greeting">
+    <section class="bg-gradient-to-r from-pink-800 to-indigo-900 flex flex-col justify-center">
+        <header class="flex flex-col sm:flex-row justify-between items-center px-10 py-5 text-gray-50 bg-white/10 backdrop-blur-2xl border-gray-400">
+            <div class="items-center text-xl font-bold sm:mb-3">@fhasna_</div>
+            <nav class="flex flex-wrap justify-center gap-3 sm:gap-5 font-light text-sm sm:text-base">
+                <a href="#greeting" class="hover:text-yellow-400 transition-colors duration-200">About</a>
+                <a href="#services" class="hover:text-yellow-400 transition-colors duration-200">Service</a>
+                <a href="#projects" class="hover:text-yellow-400 transition-colors duration-200">Project</a>
+                <a href="#contact" class="hover:text-yellow-400 transition-colors duration-200">Contact Me</a>
+            </nav>
+        </header>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 container mx-auto gap-4 p-6 items-center">
+            <div class="flex flex-col justify-center text-center md:text-left"> 
+                <h2 class="text-gray-50 text-xl md:text-2xl lg:text-3xl mb-2 md:mb-1">Hello World!</h2>
+                <h1 class="text-3xl md:text-3xl lg:text-5xl font-semibold text-gray-50 mb-1 md:mb-2 leading-tight">I'm 
+                    <span class="text-gray-50 underline italic ">Farah Hasna Pangesti,</span>
+                </h1>
+                <h1 class="text-3xl md:text-3xl lg:text-4xl font-bold text-gray-50 mb-1 md:mb-2 leading-tight">as
+                    <span class="text-gray-50" id="greeting"></span>
+                </h1>
+                <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-50 mb-4 md:mb-5 leading-tight">Based in Tangerang.</h1>
+                <p class="text-gray-50 md:text-lg lg:text-xxl font-light text-justify max-w-xl mx-auto md:mx-0"> 
+                    I'm an experienced data analysis, data visualization, and business intelligence with extensive experience in developing interactive dashboards using business intelligence tools.
+                    Additionally, I've a background as a mathematics teacher for junior high school (SMP), senior high school (SMA), and students preparing for university entrance exams.
+                </p>
+                <a href="#services" class="inline-flex items-center justify-center bg-gray-100 text-gray-900 font-semibold md:mt-10 py-3 px-6 rounded-full shadow-md hover:bg-gray-100 transition-colors duration-200">
+                    Explore Now
+                    <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+
+            <section class="grid grid-cols-1 gap-4 rounded-2xl justify-center items-center md:ml-10">
+                <div class="card bg-white/10 border-gray-100 backdrop-blur-2xl b0rder-lg">
+                    <img class="w-180 h-100" src="img/Data.jpg" alt="Data Analytics">
+                </div>
+            </section>
+        </section>
+    </section>
+
+
+    <section class="container mx-auto py-5 px-5 items-center" id="services"> 
+        <div class="mb-8 md:mb-8 text-center md:text-left"> 
+            <h1 class="text-center text-xl md:text-xl lg:text-2xl font-bold mb-8 bg-gradient-to-r from-pink-800 to-indigo-700 bg-clip-text text-transparent">All Services</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 md:m-10 gap-6">
+            <div class="card bg-white border-red-800 rounded-2xl shadow-md p-4">
+                <img  class="w-100 h-60 mb-4 rounded-md mx-auto block" src="img/Analysis & Visualization.jpg" alt="Analyze">
+                <h3 class="text-xl font-semibold mb-2">Analyze & Visualization</h3>
+                <p class="text-base font-light text-justify">We provide data analysis services and the creation of insightful and interactive dashboards to help organizations make informed, data-driven decisions.</p>
+                <a href="#projects" class="inline-flex items-center justify-center bg-gray-100 text-gray-900 font-extralight py-1 px-3 md:mt-4 shadow-md hover:bg-gray-100 transition-colors duration-200">
+                Detail Projects
+                    <svg class="ml-2 w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="card bg-white border-2 border-red-800 p-4 rounded-2xl shadow-md">
+                <img class="w-100 h-60 mb-4 rounded-md mx-auto block" src="img/math.jpg" alt="Mathematics Educator">
+                <h3 class="text-xl font-semibold mb-2">Mathematics Educator</h3>
+                <p class="text-base font-light ">Solid background as a mathematics educator for junior high school (SMP), senior high school (SMA), and students preparing for university entrance exams.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto py-5 px-4 items-center" id="projects" >
+        <h3 class="text-center text-xl md:text-xl lg:text-2xl font-bold mb-8 bg-gradient-to-r from-pink-800 to-indigo-700 bg-clip-text text-transparent">All Projects</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div class="relative overflow-hidden flex flex-col items-center justify-center p-6 transform hover:scale-105 transition duration-300 bg-gradient-to-r from-pink-800 to-indigo-700 rounded-lg shadow-md">
+                <img class="w-24 h-16 object-contain mb-4" src="img/PowerBI.png" alt="Power BI Logo">
+                <img class="h-32 object-cover rounded-md" src="img/Dash1.png" alt="Dashboard Project 1 Preview">
+                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-100">
+                    <p class="text-center mt-2 text-white text-lg font-bold">Power BI Dashboard</p>
+                </div>
+            </div>
+
+            <div class="relative overflow-hidden flex flex-col items-center justify-center p-6 transform hover:scale-105 transition duration-300 bg-gradient-to-r from-pink-800 to-indigo-700 rounded-lg shadow-md">
+                <img class="w-24 h-16 object-contain mb-4" src="img/Looker.png" alt="Looker Studio Logo">
+                <img class="h-32 object-cover rounded-md" src="img/Dash2.png" alt="Dashboard Project 2 Preview">
+                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-100">
+                    <p class="text-center mt-2 text-white text-lg font-bold">Looker Studio Dashboard</p>
+                </div>
+
+            </div>
+
+            <div class="relative overflow-hidden flex flex-col items-center justify-center p-6 transform hover:scale-105 transition duration-300 bg-gradient-to-r from-pink-800 to-indigo-700 rounded-lg shadow-md">
+                <img class="w-24 h-16 object-contain mb-4" src="img/Tableau.png" alt="Tableau Logo">
+                <img class="h-32 object-cover rounded-md" src="img/Dash3.png" alt="Dashboard Project 3 Preview">
+                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-100">
+                    <p class="text-center mt-2 text-white text-lg font-bold">Tableau Dashboard</p>
+                </div>
+            </div>
+
+            <div class="relative overflow-hidden flex flex-col items-center justify-center p-6 transform hover:scale-105 transition duration-300 bg-gradient-to-r from-pink-800 to-indigo-700 rounded-lg shadow-md">
+                <img class="w-24 h-16 object-contain mb-4" src="img/Power Query.png" alt="Power Query Logo">
+                <img class="h-32 object-contain rounded-md" src="img/Dash4.png" alt="Power Query Features">
+                <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-100">
+                    <p class="text-center mt-2 text-white text-lg font-bold">Power Query Analysis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container mx-auto py-2 px-2 bg-gradient-to-r from-pink-800 to-indigo-900 rounded-xl shadow-lg my-10">
+        <h1 class="text-center text-xl md:text-2xl font-semibold text-gray-50 mb-3">Contact Us</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10">
+            <div class="p-4">
+                <h2 class="text-gray-50 text-xl font-semibold mb-2 text-center md:text-left">Send us a message</h2>
+                <form class="space-y-5">
+                    <div>
+                        <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-50 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 text-gray-50 placeholder-gray-50" />
+                        </div>
+                    <div>
+                        <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-50 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 text-gray-50 placeholder-gray-50" />
+                    </div>
+                    <div>
+                        <textarea placeholder="Your Message" rows="5" class="w-full p-3 border border-gray-50 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 text-gray-50 placeholder-gray-50"></textarea>
+                    </div>
+                    <button type="submit" class="w-full py-3 bg-indigo-800 text-white font-bold rounded-md hover:bg-pink-700 transition-colors duration-200">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <div class="p-4">
+                <h2 class="text-gray-50 text-xl font-semibold mb-6 text-center md:text-left">Contact Information</h2>
+                <ul class="list-none p-0 m-0 space-y-4">
+                    <li class="flex items-center justify-center md:justify-start text-gray-700">
+                        <i class="fas fa-phone-alt text-xl mr-2"></i>
+                        <span>08954143835XX</span>
+                    </li>
+                    <li class="flex items-center justify-center md:justify-start text-gray-700">
+                        <i class="fas fa-envelope text-xl mr-2"></i>
+                        <span>farah.pangesti@gmail.com</span>
+                    </li>
+                    <li class="flex items-center justify-center md:justify-start text-gray-700">
+                        <i class="fa-brands fa-instagram text-xl mr-2"></i>
+                        <a href="https://www.instagram.com/fhasna_/">fhasna_</a>
+                    </li>
+                    <li class="flex items-center justify-center md:justify-start text-gray-700">
+                        <i class="fa-brands fa-linkedin text-xl mr-2"></i>
+                        <a href="https://www.linkedin.com/in/farah-hasna/">Farah Hasna Pangesti</a>
+                    </li>
+                    <li class="flex items-center justify-center md:justify-start text-gray-700">
+                        <i class="fas fa-map-marker-alt text-xl mr-2"></i>
+                        <span>Tangerang, Banten</span>
+                    </li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="src/main.js"></script>
+</body>
+</html>
